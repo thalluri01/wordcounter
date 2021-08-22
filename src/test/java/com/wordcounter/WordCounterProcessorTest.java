@@ -55,7 +55,7 @@ public class WordCounterProcessorTest {
     public void usageCountTest_sameWordInMultipleLanguages() throws Exception {
         testData();
         Integer count = wordCountProcessor.usageCount(word1);
-        assertEquals(1, count.intValue());
+        assertEquals(3, count.intValue());
     }
 
     private void testData() {
